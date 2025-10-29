@@ -1,6 +1,6 @@
 # boxbot
 
-a fun training tool for shadowboxing or bag work
+a training tool for shadowboxing or bag work
 
 ## how it works
 
