@@ -4,7 +4,7 @@ a training tool for shadowboxing or bag work
 
 ## how it works
 
-I transcribed every meaningful punch thrown in a few world-class boxing fights. This builds a Markov chain to model the frequencies of the six punches and the transitions between them (e.g. a cross is likely to come after a jab), then uses it to generate an infinite, realistic sequence of punches and combinations. Each punch is announced one at a time, so they can be followed while shadowboxing or working the bag.
+I transcribed every meaningful punch thrown in a few world-class boxing fights. I model the frequencies of the six punches and the transitions between them (e.g. a cross is likely to come after a jab) with a Markov chain, then use that to generate an infinite, realistic sequence of punches and combinations. Each punch is announced one at a time, so they can be followed while shadowboxing or working the bag.
 
 To start:
 
