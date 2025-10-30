@@ -15,5 +15,5 @@ python3 play.py
 ## other notes
 
 - There are only two full fights transcribed (so far).
-- The fight transcriptions also include the target of each of the punches (`h` for head, `b` for body). These aren't being used right now because there aren't enough data to effectively double the number of states, but head/body frequencies could be modelled in a separate Markov chain and used in combination with the punch chain.
+- The fight transcriptions also include the target of each of the punches (`h` for head, `b` for body). These aren't being used right now because there aren't enough data to effectively model twice the amount of punches/states, but head and body frequencies could be modelled in a separate Markov chain and used in combination with the punch chain.
 - `tts.py` generates new audio files using the Google Cloud TTS service.
